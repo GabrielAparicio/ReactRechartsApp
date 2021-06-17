@@ -20,7 +20,8 @@
     "plugins": [
         "react",
         "@typescript-eslint",
-        "prettier"
+        "prettier",
+        "jest"
     ],
     "rules": {
         "prettier/prettier": [
@@ -33,6 +34,11 @@
         "react/prop-types": "off",
         "no-param-reassign": "off",
         "no-plusplus": "off",
-        "react/jsx-props-no-spreading": "off"
+        "react/jsx-props-no-spreading": "off",
+        "jest/no-disabled-tests": "warn",
+        "jest/no-focused-tests": "error",
+        "jest/no-identical-title": "error",
+        "jest/prefer-to-have-length": "warn",
+        "jest/valid-expect": "error"
     }
 }
