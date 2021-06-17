@@ -1,7 +1,8 @@
 import React from 'react';
+import Routes from '../../Routes';
 
 const App: React.FC = () => {
-  return <div className="App">Front end task</div>;
+  return <Routes />;
 };
 
 export default App;
