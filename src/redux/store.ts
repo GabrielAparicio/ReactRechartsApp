@@ -1,10 +1,10 @@
 import { configureStore } from '@reduxjs/toolkit';
-import overviewsReducer from '../features/overview/overviewSlice';
+import overviewReducer from '../features/overview/overviewSlice';
 import campaignsReducer from '../features/campaigns/campaignsSlice';
 
 export const store = configureStore({
   reducer: {
-    overviews: overviewsReducer,
+    overview: overviewReducer,
     campaigns: campaignsReducer,
   },
 });
