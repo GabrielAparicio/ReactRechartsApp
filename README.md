@@ -2,10 +2,12 @@
 
 I implemented the task as fast as I could, even though I didn't focus on styling and design I included some responsiveness using Material UI.
 
-To run the task just follow these steps:
+To run the task just execute these commands:
 
-* yarn install
-* yarn start
+```
+yarn install
+yarn start
+```
 
 ## Dependecies
 
