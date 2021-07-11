@@ -37,7 +37,7 @@ const NavBar: React.FC = () => {
         <Grid container className={classes.gridContainer}>
           <Grid item xs={12} sm={4}>
             <Typography variant="h6" className={classes.header}>
-              AppLike Frontend Test
+              Frontend App
             </Typography>
           </Grid>
           <Grid item xs={12} sm={4}>
